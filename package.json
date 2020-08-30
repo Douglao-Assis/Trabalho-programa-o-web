@@ -1,0 +1,23 @@
+{
+  "name": "exemplo-node2",
+  "version": "1.0.0",
+  "description": "Projeto exemplo em Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Douglao-Assis/exemplo-node2.git"
+  },
+  "keywords": [
+    "node",
+    "git"
+  ],
+  "author": "Douglas Assis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Douglao-Assis/exemplo-node2/issues"
+  },
+  "homepage": "https://github.com/Douglao-Assis/exemplo-node2#readme"
+}
