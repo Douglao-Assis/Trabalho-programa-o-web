@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Geral</title>
+    <link href="estilo.css" rel="stylesheet" />
+</head>
+<body>
+    <img src="https://scontent.fsod9-1.fna.fbcdn.net/v/t1.0-9/87995318_101747044768176_3920839506663571456_n.png?_nc_cat=100&ccb=2&_nc_sid=09cbfe&_nc_eui2=AeHmJSr-okab3-R0X5lid869pKIuk71q9OGkoi6TvWr04eLE2cg-4Dze0xOSnx51Zog&_nc_ohc=m31CClRlI4AAX_asX4B&_nc_ht=scontent.fsod9-1.fna&oh=d1e8c9c35f68f6e1a08fc1c2db85b5dc&oe=5FEA57E9" alt="some text" width=250 height=200>
+    <div class="menu">
+        <a class="ativo" href="index.html">Voltar</a>
+        
+    </div>
+    <div class="form">
+        <form name="formCliente">
+            <fieldset>
+                <legend>Fornecedores</legend>
+            <div class="form-group">
+                <label>Marca</label>
+
+                <select>
+                    <option value="#">Selecione</option>
+                    <option valeu="volkswagen">Volkswagen</option>
+                    <option valeu="fiat">Fiat</option>
+                    <option valeu="ford">Ford</option>
+                    <option valeu="gm">GM</option>
+             </select>
+            </div>
+            <div class="form-group">
+                <label></label>
+            </div>
+            <div class="form-group">
+                <label>Loja</label>
+                <select>
+                    <option value="#">Selecione</option>
+                    <option valeu="matriz">Matriz</option>
+                    <option valeu="filial">Filial</option>
+                    
+             </select>
+            <div class="form-group">
+                <label></label>
+                <button id="Pesquisar">🔍 Pesquisar</button>
+        
+            </div>
+            </fieldset>            
+        </form>
+    </div>
+    
+    <div id="listagem"></div>
+
+    
+    <script src="cliente.js"></script>
+    
+</body>
+</html>

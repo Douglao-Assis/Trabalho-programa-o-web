@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Geral</title>
+    <link href="estilo.css" rel="stylesheet" />
+</head>
+<body>
+    <img src="https://scontent.fsod9-1.fna.fbcdn.net/v/t1.0-9/87995318_101747044768176_3920839506663571456_n.png?_nc_cat=100&ccb=2&_nc_sid=09cbfe&_nc_eui2=AeHmJSr-okab3-R0X5lid869pKIuk71q9OGkoi6TvWr04eLE2cg-4Dze0xOSnx51Zog&_nc_ohc=m31CClRlI4AAX_asX4B&_nc_ht=scontent.fsod9-1.fna&oh=d1e8c9c35f68f6e1a08fc1c2db85b5dc&oe=5FEA57E9" alt="some text" width=250 height=200>
+    <div class="menu">
+        <a class="ativo" href="#">Pagina Inicial</a>
+        <a href="nacionais.html">Nacionais</a>
+        <a href="importados.html">Importados</a>
+        <a href="fornecedores.html">Fornecedores</a>
+    </div>
+    <div class="form">
+        <form name="formCliente">
+            <fieldset>
+                <legend>Cadastro de Clientes</legend>
+            <div class="form-group">
+                <label>Nome</label>
+                <input class="input-control" type="text" size="5" id="nome"/>
+
+                <label class="right-inline">Sobrenome</label>
+                <input class="input-control" type="text" size="40" id="sobrenome" />
+
+                <label class="right-inline">Celular</label>
+                <input class="input-control" type="tel" size="10" id="celular" />
+            </div>
+            <div class="form-group">
+                <label>Endereço</label>
+                <input class="input-control" type="text" size="40" id="endereco"/>
+
+                <label class="right-inline">Bairro</label>
+                <input class="input-control" type="text" size="20" id="bairro"/>
+
+                <label class="right-inline">Cidade</label>
+                <input class="input-control" type="text" size="30" id="cidade" />
+            </div>
+            <div class="form-group">
+                <label>CPF</label>
+                <input class="input-control" type="text" size="40" id="cpf"/>
+
+                <label class="right-inline">RG</label>
+                <input class="input-control" type="text" size="20" id="rg"/>
+
+                <label class="right-inline">Email</label>
+                <input class="input-control" type="text" size="30" id="email" />
+            </div>
+            <div class="form-group">
+                <label>Observações</label>
+                <textarea class="input-control" id="observacoes"></textarea>
+            </div>
+            <div class="form-group">
+                <label></label>
+                <button id="salvar">💾 Salvar</button>
+                <button id="cancelar">❌ Cancelar</button>
+                <button id="Editar">🔧 Editar</button>
+            </div>
+            </fieldset>            
+        </form>
+    </div>
+    
+    <div id="listagem"></div>
+
+    
+    <script src="cliente.js"></script>
+    
+</body>
+</html>
